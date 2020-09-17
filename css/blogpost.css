@@ -1,0 +1,98 @@
+    @font-face {
+        font-family: JosefinSans;
+        src: url("../fonts/JosefinSans-Regular.ttf");
+    }
+    
+    .post-page a {
+        color: #04083f;
+        width: 100px;
+        text-align: center;
+    }
+    
+    .post-page main .title {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        background: #fff;
+    }
+    
+    .post-page main .title h2 {
+        font-family: JosefinSans, Aller, Arial, Helvetica, sans-serif;
+        margin-bottom: 5px;
+        font-size: 30px;
+    }
+    
+    .post-page main .title #author {
+        width: 100%;
+        margin: 1rem 0;
+        padding: 0.5rem 0;
+        border-top: 1px solid #ececec;
+        border-bottom: 1px solid #ececec;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .post-page main .title #author img {
+        width: 50px;
+        height: 50px;
+        align-self: center;
+        margin-right: 15px;
+        margin-left: 5px;
+        border: 1px solid #ececec;
+        background: #ececec;
+        border-radius: 50%;
+    }
+    
+    .post-page main .title #author #about-author span {
+        display: block;
+        margin: 5px 10px;
+    }
+    
+    .post-page main .title #author #about-author img {
+        width: 20px;
+        height: 20px;
+        margin-right: 0;
+        border: none;
+        background: transparent;
+        cursor: pointer;
+    }
+    
+    .post-page main article .post-section {
+        margin: 1rem 0;
+    }
+    
+    .post-page main article .post-section h3 {
+        font-family: JosefinSans, Aller, Arial, Helvetica, sans-serif;
+        color: #042e73;
+        margin-bottom: 5px;
+        font-size: 30px;
+        text-align: center;
+    }
+    
+    .post-page main article .post-section P {
+        font-family: JosefinSans, Aller, Arial, Helvetica, sans-serif;
+        font-size: 17px;
+        line-height: 25px;
+    }
+    
+    .post-section q {
+        font-family: JosefinSans, Aller, Arial, Helvetica, sans-serif;
+        font-style: italic;
+        background: #ececec;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    
+    .post-page main article .post-section .custom {
+        font-weight: bold;
+        font-style: italic;
+        text-decoration: underline;
+        color: #04083f;
+        font-size: 21px;
+        margin: 10px 0;
+    }
+    
+    footer #icons8 {
+        color: #04083f;
+        text-decoration: underline;
+    }

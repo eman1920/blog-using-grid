@@ -1,0 +1,75 @@
+@import url("style.css");
+@import url("blogpost.css");
+@import url("subscribe.css");
+
+/*Media queriew*/
+
+
+/*v.small screens */
+
+@media (max-width:530px) {
+    header h1 {
+        font-size: 27px;
+    }
+}
+
+
+/* medium and large screen */
+
+@media (min-width: 768px) {
+    .page-container {
+        padding: 0 50px;
+    }
+    header .dropdown-icon {
+        display: none;
+    }
+    header .dropdown-menu {
+        display: block;
+        position: static;
+        background-color: transparent;
+    }
+    header .dropdown-menu li {
+        display: inline-block;
+    }
+    header .dropdown-menu li a {
+        margin: 0 10px;
+        font-size: 20px;
+    }
+    header .dropdown-menu .active {
+        background: #575a89;
+    }
+    header .dropdown-menu .active a {
+        color: #fff;
+    }
+    header .dropdown-menu li a:hover,
+    header .dropdown-menu .active a:hover {
+        color: #fff;
+    }
+    .home-page main {
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .home-page main .post-card {
+        width: 45%;
+    }
+    .post-page .main {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .subscribe-page main {
+        flex-direction: row;
+    }
+    .subscribe-page main img {
+        width: 50%;
+    }
+    .subscribe-page main .form {
+        margin-left: 30px;
+    }
+    footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
