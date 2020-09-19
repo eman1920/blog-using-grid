@@ -9,6 +9,9 @@
     grid-area: a;
     padding: 0 1rem;
 }
+.subscribe-page header a {
+    color:#04083f; 
+    }
 
 .subscribe-page main {
     grid-area: b;
